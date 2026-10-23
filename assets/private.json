@@ -1,0 +1,13 @@
+{
+  "title": "私有",
+  "repos": 5,
+  "stars": null,
+  "bytes": 6493237,
+  "languages": {
+    "Python": 5379169,
+    "Vue": 429848,
+    "Shell": 312883,
+    "HTML": 268555,
+    "JavaScript": 69632
+  }
+}
