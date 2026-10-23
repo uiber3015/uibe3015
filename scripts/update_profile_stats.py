@@ -25,13 +25,11 @@ LANG_COLOR = {
     "SQL": "#e38c00",
 }
 FONT = "Segoe UI, PingFang SC, Microsoft YaHei, sans-serif"
-CARD_W = 460
+CARD_W = 420
 CARD_H = 292
-GAP = 20
-WIDTH = CARD_W
-HEIGHT = CARD_H * 2 + GAP
-START = "<!-- STATS:START -->"
-END = "<!-- STATS:END -->"
+GAP = 16
+WIDTH = CARD_W * 2 + GAP
+HEIGHT = CARD_H
 
 
 def api(url, token):
@@ -187,75 +185,44 @@ def card_svg(groups, theme):
         f'<rect width="{WIDTH}" height="{HEIGHT}" fill="{page}"/>',
     ]
     for index, group in enumerate(groups):
-        top = index * (CARD_H + GAP)
+        x = index * (CARD_W + GAP)
         parts.append(
-            f'<rect x="0.5" y="{top + 0.5}" width="{CARD_W - 1}" height="{CARD_H - 1}" rx="16" fill="{page}" stroke="{border}"/>'
+            f'<rect x="{x + 0.5}" y="0.5" width="{CARD_W - 1}" height="{CARD_H - 1}" rx="16" fill="{page}" stroke="{border}"/>'
         )
         parts.append(
-            f'<text x="28" y="{top + 40}" fill="{title}" font-size="18" font-weight="600" font-family="{FONT}">{esc(group["title"])}</text>'
+            f'<text x="{x + 28}" y="40" fill="{title}" font-size="18" font-weight="600" font-family="{FONT}">{esc(group["title"])}</text>'
         )
         parts.append(
-            f'<text x="28" y="{top + 66}" fill="{muted}" font-size="13" font-family="{FONT}">{esc(summary(group))}</text>'
+            f'<text x="{x + 28}" y="66" fill="{muted}" font-size="13" font-family="{FONT}">{esc(summary(group))}</text>'
         )
         bar_width = CARD_W - 56
         for row, (name, pct, color) in enumerate(ranked(group)):
-            y = top + 102 + row * 36
+            y = 102 + row * 36
             parts.append(
-                f'<text x="28" y="{y}" fill="{title}" font-size="13" font-family="{FONT}">{esc(name)}</text>'
+                f'<text x="{x + 28}" y="{y}" fill="{title}" font-size="13" font-family="{FONT}">{esc(name)}</text>'
             )
             parts.append(
-                f'<text x="{CARD_W - 28}" y="{y}" fill="{muted}" font-size="13" font-family="{FONT}" text-anchor="end">{pct:.1f}%</text>'
+                f'<text x="{x + CARD_W - 28}" y="{y}" fill="{muted}" font-size="13" font-family="{FONT}" text-anchor="end">{pct:.1f}%</text>'
             )
             bar_y = y + 8
             parts.append(
-                f'<rect x="28" y="{bar_y}" width="{bar_width}" height="8" rx="4" fill="{track}"/>'
+                f'<rect x="{x + 28}" y="{bar_y}" width="{bar_width}" height="8" rx="4" fill="{track}"/>'
             )
             fill = max(4, round(bar_width * pct / 100))
             parts.append(
-                f'<rect x="28" y="{bar_y}" width="{fill}" height="8" rx="4" fill="{color}"/>'
+                f'<rect x="{x + 28}" y="{bar_y}" width="{fill}" height="8" rx="4" fill="{color}"/>'
             )
     parts.append("</svg>")
     return "\n".join(parts) + "\n"
-
-
-def stats_block(groups):
-    lines = [
-        "| | 仓库 | Star | 代码量 |",
-        "| --- | ---: | ---: | ---: |",
-    ]
-    for group in groups:
-        star = "—" if group.get("stars") is None else str(group["stars"])
-        lines.append(f"| {group['title']} | {group['repos']} | {star} | {size(group['bytes'])} |")
-    lines.append("")
-    for group in groups:
-        langs = " · ".join(f"{name} {pct:.1f}%" for name, pct, _color in ranked(group))
-        lines.append(f"**{group['title']}**　{langs}")
-        lines.append("")
-    return START + "\n" + "\n".join(lines).rstrip() + "\n" + END + "\n"
-
-
-def write_readme(groups):
-    with open("README.md", encoding="utf-8") as handle:
-        text = handle.read()
-    begin = text.find(START)
-    finish = text.find(END)
-    if begin == -1 or finish == -1 or finish < begin:
-        raise SystemExit("README.md 里没有统计标记。")
-    updated = text[:begin] + stats_block(groups) + text[finish + len(END) :]
-    if not updated.endswith("\n"):
-        updated += "\n"
-    with open("README.md", "w", encoding="utf-8", newline="\n") as handle:
-        handle.write(updated)
 
 
 def main():
     token = os.environ.get("STATS_TOKEN", "").strip()
     groups = [load_public(token), load_private(token)]
     os.makedirs("assets", exist_ok=True)
-    for theme, name in (("light", "assets/overview.svg"), ("dark", "assets/overview-dark.svg")):
+    for theme, name in (("light", "assets/stats-row.svg"), ("dark", "assets/stats-row-dark.svg")):
         with open(name, "w", encoding="utf-8", newline="\n") as handle:
             handle.write(card_svg(groups, theme))
-    write_readme(groups)
     print(" ".join(f"{group['title']}={group['repos']}" for group in groups))
 
 
