@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-row-dark.svg">
-    <img alt="公开与私有仓库统计" src="assets/stats-row.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile-stats-dark.svg">
+    <img alt="Public and private repository stats" src="assets/profile-stats.svg">
   </picture>
 </p>
 

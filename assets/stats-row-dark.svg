@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="856" height="292" viewBox="0 0 856 292" role="img">
 <rect width="856" height="292" fill="#0d1117"/>
 <rect x="0.5" y="0.5" width="419" height="291" rx="16" fill="#0d1117" stroke="#30363d"/>
-<text x="28" y="40" fill="#e6edf3" font-size="18" font-weight="600" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">公开</text>
-<text x="28" y="66" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">8 个仓库 · 10 Star · 4.5 MB</text>
+<text x="28" y="40" fill="#e6edf3" font-size="18" font-weight="600" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">Public</text>
+<text x="28" y="66" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">8 repos · 10 Star · 4.5 MB</text>
 <text x="28" y="102" fill="#e6edf3" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">Python</text>
 <text x="392" y="102" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">64.9%</text>
 <rect x="28" y="110" width="364" height="8" rx="4" fill="#21262d"/>
@@ -24,8 +24,8 @@
 <rect x="28" y="254" width="364" height="8" rx="4" fill="#21262d"/>
 <rect x="28" y="254" width="6" height="8" rx="4" fill="#89e051"/>
 <rect x="436.5" y="0.5" width="419" height="291" rx="16" fill="#0d1117" stroke="#30363d"/>
-<text x="464" y="40" fill="#e6edf3" font-size="18" font-weight="600" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">私有</text>
-<text x="464" y="66" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">5 个仓库 · 6.5 MB</text>
+<text x="464" y="40" fill="#e6edf3" font-size="18" font-weight="600" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">Private</text>
+<text x="464" y="66" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">5 repos · 6.5 MB</text>
 <text x="464" y="102" fill="#e6edf3" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">Python</text>
 <text x="828" y="102" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">82.8%</text>
 <rect x="464" y="110" width="364" height="8" rx="4" fill="#21262d"/>

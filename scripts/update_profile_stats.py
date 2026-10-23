@@ -113,7 +113,7 @@ def load_public(token):
                     )
                 )
         selected = [repo for repo in repos if keep(repo) and not repo.get("private")]
-        return group_from_repos("公开", selected, token)
+        return group_from_repos("Public", selected, token)
     except urllib.error.HTTPError as error:
         print(f"public api skipped: {error.code}")
         with open("assets/public.json", encoding="utf-8") as handle:
@@ -129,7 +129,7 @@ def load_private(token):
         token,
     )
     selected = [repo for repo in repos if keep(repo) and repo.get("private")]
-    group = group_from_repos("私有", selected, token)
+    group = group_from_repos("Private", selected, token)
     with open("assets/private.json", "w", encoding="utf-8", newline="\n") as handle:
         json.dump(group, handle, ensure_ascii=False, indent=2)
         handle.write("\n")
@@ -145,7 +145,7 @@ def size(num):
 
 
 def summary(group):
-    parts = [f"{group['repos']} 个仓库"]
+    parts = [f"{group['repos']} repos"]
     if group.get("stars") is not None:
         parts.append(f"{group['stars']} Star")
     parts.append(size(group["bytes"]))
@@ -220,7 +220,7 @@ def main():
     token = os.environ.get("STATS_TOKEN", "").strip()
     groups = [load_public(token), load_private(token)]
     os.makedirs("assets", exist_ok=True)
-    for theme, name in (("light", "assets/stats-row.svg"), ("dark", "assets/stats-row-dark.svg")):
+    for theme, name in (("light", "assets/profile-stats.svg"), ("dark", "assets/profile-stats-dark.svg")):
         with open(name, "w", encoding="utf-8", newline="\n") as handle:
             handle.write(card_svg(groups, theme))
     print(" ".join(f"{group['title']}={group['repos']}" for group in groups))
