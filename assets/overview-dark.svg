@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="604" viewBox="0 0 460 604" role="img">
+<rect width="460" height="604" fill="#0d1117"/>
+<rect x="0.5" y="0.5" width="459" height="291" rx="16" fill="#0d1117" stroke="#30363d"/>
+<text x="28" y="40" fill="#e6edf3" font-size="18" font-weight="600" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">公开</text>
+<text x="28" y="66" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">8 个仓库 · 10 Star · 4.5 MB</text>
+<text x="28" y="102" fill="#e6edf3" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">Python</text>
+<text x="432" y="102" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">64.9%</text>
+<rect x="28" y="110" width="404" height="8" rx="4" fill="#21262d"/>
+<rect x="28" y="110" width="262" height="8" rx="4" fill="#3572A5"/>
+<text x="28" y="138" fill="#e6edf3" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">HTML</text>
+<text x="432" y="138" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">26.1%</text>
+<rect x="28" y="146" width="404" height="8" rx="4" fill="#21262d"/>
+<rect x="28" y="146" width="106" height="8" rx="4" fill="#e34c26"/>
+<text x="28" y="174" fill="#e6edf3" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">C++</text>
+<text x="432" y="174" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">4.9%</text>
+<rect x="28" y="182" width="404" height="8" rx="4" fill="#21262d"/>
+<rect x="28" y="182" width="20" height="8" rx="4" fill="#f34b7d"/>
+<text x="28" y="210" fill="#e6edf3" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">TypeScript</text>
+<text x="432" y="210" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">2.2%</text>
+<rect x="28" y="218" width="404" height="8" rx="4" fill="#21262d"/>
+<rect x="28" y="218" width="9" height="8" rx="4" fill="#3178c6"/>
+<text x="28" y="246" fill="#e6edf3" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">Shell</text>
+<text x="432" y="246" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">1.8%</text>
+<rect x="28" y="254" width="404" height="8" rx="4" fill="#21262d"/>
+<rect x="28" y="254" width="7" height="8" rx="4" fill="#89e051"/>
+<rect x="0.5" y="312.5" width="459" height="291" rx="16" fill="#0d1117" stroke="#30363d"/>
+<text x="28" y="352" fill="#e6edf3" font-size="18" font-weight="600" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">私有</text>
+<text x="28" y="378" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">5 个仓库 · 6.5 MB</text>
+<text x="28" y="414" fill="#e6edf3" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">Python</text>
+<text x="432" y="414" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">82.8%</text>
+<rect x="28" y="422" width="404" height="8" rx="4" fill="#21262d"/>
+<rect x="28" y="422" width="335" height="8" rx="4" fill="#3572A5"/>
+<text x="28" y="450" fill="#e6edf3" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">Vue</text>
+<text x="432" y="450" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">6.6%</text>
+<rect x="28" y="458" width="404" height="8" rx="4" fill="#21262d"/>
+<rect x="28" y="458" width="27" height="8" rx="4" fill="#41b883"/>
+<text x="28" y="486" fill="#e6edf3" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">Shell</text>
+<text x="432" y="486" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">4.8%</text>
+<rect x="28" y="494" width="404" height="8" rx="4" fill="#21262d"/>
+<rect x="28" y="494" width="19" height="8" rx="4" fill="#89e051"/>
+<text x="28" y="522" fill="#e6edf3" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">HTML</text>
+<text x="432" y="522" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">4.1%</text>
+<rect x="28" y="530" width="404" height="8" rx="4" fill="#21262d"/>
+<rect x="28" y="530" width="17" height="8" rx="4" fill="#e34c26"/>
+<text x="28" y="558" fill="#e6edf3" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">JavaScript</text>
+<text x="432" y="558" fill="#8b949e" font-size="13" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">1.1%</text>
+<rect x="28" y="566" width="404" height="8" rx="4" fill="#21262d"/>
+<rect x="28" y="566" width="4" height="8" rx="4" fill="#f1e05a"/>
+</svg>

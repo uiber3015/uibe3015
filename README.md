@@ -7,10 +7,21 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-    <img alt="公开与私有仓库统计" src="assets/stats.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/overview-dark.svg">
+    <img alt="公开与私有仓库统计" src="assets/overview.svg">
   </picture>
 </p>
+
+<!-- STATS:START -->
+| | 仓库 | Star | 代码量 |
+| --- | ---: | ---: | ---: |
+| 公开 | 8 | 10 | 4.5 MB |
+| 私有 | 5 | — | 6.5 MB |
+
+**公开**　Python 64.9% · HTML 26.1% · C++ 4.9% · TypeScript 2.2% · Shell 1.8%
+
+**私有**　Python 82.8% · Vue 6.6% · Shell 4.8% · HTML 4.1% · JavaScript 1.1%
+<!-- STATS:END -->
 
 <p align="center">
   <a href="https://github.com/uiber3015/BioTRACE">
