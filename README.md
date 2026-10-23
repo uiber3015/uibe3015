@@ -8,14 +8,14 @@
 <p align="center">
   <a href="https://github.com/uiber3015/BioTRACE">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=uiber3015&repo=BioTRACE&theme=dark&hide_border=true&v=2">
-      <img alt="BioTRACE" src="https://github-readme-stats.vercel.app/api/pin/?username=uiber3015&repo=BioTRACE&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&v=2">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=uiber3015&repo=BioTRACE&theme=dark&hide_border=true&v=3">
+      <img alt="BioTRACE" src="https://github-readme-stats.vercel.app/api/pin/?username=uiber3015&repo=BioTRACE&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&v=3">
     </picture>
   </a>
   <a href="https://github.com/DeepCodingInTuringAcademy/Habbit">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=DeepCodingInTuringAcademy&repo=Habbit&theme=dark&hide_border=true">
-      <img alt="Habbit" src="https://github-readme-stats.vercel.app/api/pin/?username=DeepCodingInTuringAcademy&repo=Habbit&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=DeepCodingInTuringAcademy&repo=Habbit&theme=dark&hide_border=true&v=3">
+      <img alt="Habbit" src="https://github-readme-stats.vercel.app/api/pin/?username=DeepCodingInTuringAcademy&repo=Habbit&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&v=3">
     </picture>
   </a>
 </p>
@@ -23,14 +23,14 @@
 <p align="center">
   <a href="https://github.com/UIBER2023/FinanceAI">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=UIBER2023&repo=FinanceAI&theme=dark&hide_border=true">
-      <img alt="FinanceAI" src="https://github-readme-stats.vercel.app/api/pin/?username=UIBER2023&repo=FinanceAI&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=UIBER2023&repo=FinanceAI&theme=dark&hide_border=true&v=3">
+      <img alt="FinanceAI" src="https://github-readme-stats.vercel.app/api/pin/?username=UIBER2023&repo=FinanceAI&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&v=3">
     </picture>
   </a>
   <a href="https://github.com/uiber3015/EduInteractivateGame">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=uiber3015&repo=EduInteractivateGame&theme=dark&hide_border=true&v=2">
-      <img alt="EduInteractivateGame" src="https://github-readme-stats.vercel.app/api/pin/?username=uiber3015&repo=EduInteractivateGame&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&v=2">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=uiber3015&repo=EduInteractivateGame&theme=dark&hide_border=true&v=3">
+      <img alt="EduInteractivateGame" src="https://github-readme-stats.vercel.app/api/pin/?username=uiber3015&repo=EduInteractivateGame&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&v=3">
     </picture>
   </a>
 </p>
@@ -38,14 +38,14 @@
 <p align="center">
   <a href="https://github.com/uiber3015/EducationalSeriousGame_Demo">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=uiber3015&repo=EducationalSeriousGame_Demo&theme=dark&hide_border=true&v=2">
-      <img alt="EducationalSeriousGame_Demo" src="https://github-readme-stats.vercel.app/api/pin/?username=uiber3015&repo=EducationalSeriousGame_Demo&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&v=2">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=uiber3015&repo=EducationalSeriousGame_Demo&theme=dark&hide_border=true&v=3">
+      <img alt="EducationalSeriousGame_Demo" src="https://github-readme-stats.vercel.app/api/pin/?username=uiber3015&repo=EducationalSeriousGame_Demo&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&v=3">
     </picture>
   </a>
   <a href="https://github.com/UIBER2023/CycleGAN-Photo2Monet">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=UIBER2023&repo=CycleGAN-Photo2Monet&theme=dark&hide_border=true">
-      <img alt="CycleGAN-Photo2Monet" src="https://github-readme-stats.vercel.app/api/pin/?username=UIBER2023&repo=CycleGAN-Photo2Monet&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=UIBER2023&repo=CycleGAN-Photo2Monet&theme=dark&hide_border=true&v=3">
+      <img alt="CycleGAN-Photo2Monet" src="https://github-readme-stats.vercel.app/api/pin/?username=UIBER2023&repo=CycleGAN-Photo2Monet&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&v=3">
     </picture>
   </a>
 </p>
