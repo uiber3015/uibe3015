@@ -113,7 +113,11 @@ def load_public(token):
                     )
                 )
         selected = [repo for repo in repos if keep(repo) and not repo.get("private")]
-        return group_from_repos("Public", selected, token)
+        group = group_from_repos("Public", selected, token)
+        with open("assets/public.json", "w", encoding="utf-8", newline="\n") as handle:
+            json.dump(group, handle, ensure_ascii=False, indent=2)
+            handle.write("\n")
+        return group
     except urllib.error.HTTPError as error:
         print(f"public api skipped: {error.code}")
         with open("assets/public.json", encoding="utf-8") as handle:
@@ -129,6 +133,10 @@ def load_private(token):
         token,
     )
     selected = [repo for repo in repos if keep(repo) and repo.get("private")]
+    if not selected:
+        print("private api returned no repos; keeping saved snapshot")
+        with open("assets/private.json", encoding="utf-8") as handle:
+            return json.load(handle)
     group = group_from_repos("Private", selected, token)
     with open("assets/private.json", "w", encoding="utf-8", newline="\n") as handle:
         json.dump(group, handle, ensure_ascii=False, indent=2)
