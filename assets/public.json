@@ -2,11 +2,10 @@
   "title": "Public",
   "repos": 8,
   "stars": 17,
-  "bytes": 4470059,
+  "bytes": 3186764,
   "languages": {
-    "Python": 2899507,
-    "HTML": 1167955,
-    "C++": 221200,
+    "Python": 1850568,
+    "HTML": 1133301,
     "TypeScript": 98074,
     "Shell": 78300
   }
